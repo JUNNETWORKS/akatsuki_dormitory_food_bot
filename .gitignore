@@ -1,0 +1,26 @@
+# Editor
+.idea/
+.vscode/
+
+# python cache
+__pycache__/
+*.pyc
+
+# img files
+food/static/image/*
+
+# static files
+static/
+
+# DB
+db.sqlite3
+
+# log
+/log/*
+
+# other
+!.gitkeep
+pdf_name.txt
+.env
+*.sock
+*.swp

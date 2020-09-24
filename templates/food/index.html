@@ -1,0 +1,27 @@
+{% extends "food/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<h4>{{ month }}月のメニューデータ</h4>
+
+<table class="table table-striped" border="1">
+    <thead>
+        <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Breakfast</th>
+            <th scope="col">Lunch</th>
+            <th scope="col">Dinner</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for menu in data %}
+            <tr>
+                <th scope="row">{{ menu.day }}</th>
+                <td>{{ menu.breakfast }}</td>
+                <td>{{ menu.lunch }}</td>
+                <td>{{ menu.dinner }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
