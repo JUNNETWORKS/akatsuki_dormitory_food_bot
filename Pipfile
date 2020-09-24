@@ -7,7 +7,7 @@ verify_ssl = true
 ipython = "*"
 
 [packages]
-pandas = "*"
+pandas = "==0.24"
 requests = "*"
 beautifulsoup4 = "*"
 pdf2image = "*"
