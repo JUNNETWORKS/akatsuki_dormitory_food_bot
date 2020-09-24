@@ -88,3 +88,5 @@ ln -s /home/webapp/akatsuki/akatsuki-nginx.conf /etc/nginx/sites-enabled/akatsuk
 ```
 
 `export $(cat /home/webapp/akatsuki/.env | grep -v ^# | xargs);` のところでシークレットキーなどの値を読み込んでいる
+
+[コマンドでの環境変数の受け渡し](https://qiita.com/reflet/items/2caf9dbf0e3f775276ec#%E5%88%A5%E3%83%95%E3%82%A1%E3%82%A4%E3%83%ABenv%E3%81%AB%E5%AE%9A%E7%BE%A9%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE%E3%82%92%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)
