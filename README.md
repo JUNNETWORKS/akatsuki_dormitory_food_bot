@@ -2,6 +2,8 @@
 
 [Twitter](https://twitter.com/Toba_Akatsuki)
 
+[サイト](https://t.co/CNUt7w3Bz4?amp=1)
+
 ## systemd
 
 `/etc/systemd/system/akatsuki.service`
